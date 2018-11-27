@@ -4,6 +4,6 @@ from openwisp_utils.admin_theme.admin import admin, openwisp_admin
 openwisp_admin()
 
 urlpatterns = [
-    url(r'^accounts/', include('openwisp_users.accounts.urls')),
+    # url(r'^accounts/', include('openwisp_users.accounts.urls')),
     url(r'^admin/', admin.site.urls),
 ]
